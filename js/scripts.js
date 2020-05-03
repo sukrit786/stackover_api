@@ -15,7 +15,7 @@ document.getElementById('btn').addEventListener('click', () => {
     });
     let questions;
     let query = $.param(data);
-    fetch(`http://api.stackexchange.com/2.2/questions?site=stackoverflow&${query}`, {
+    fetch(`https://api.stackexchange.com/2.2/questions?site=stackoverflow&${query}`, {
         mode: 'cors'
     })
         //add loader when when fetch starts and remove when it ends in val then
