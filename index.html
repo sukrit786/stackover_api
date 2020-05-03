@@ -1,0 +1,178 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section id="main">
+        <!-- <h1>Stack Overflow questionnaire ui</h1> -->
+        <div class="semi">
+            <img src="./img/semi.png" alt="image">
+        </div>
+        <div class="logo">
+            <img src="https://img.icons8.com/nolan/128/document.png" />
+            <!-- <img src="https://img.icons8.com/dusk/64/000000/open-document.png"/> -->
+        </div>
+        <div class="mainblock" id="main_1">
+            <form class="form" id="gamma">
+                <div class="input-group">
+                    <input class="input-group__input" id="page" type="number" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="page">Page</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="pagesize" type="number" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="pagesize">Pagesize</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="user" type="number" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="user">User</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="fromdate" type="date" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="fromdate">From Date</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="todate" type="date" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="todate">To date</label>
+                </div>
+                <div class="input-group">
+                    <select class="input-group__input gaze" id="order" style="padding-top: 15px;padding-bottom: 7px;">
+                        <option value="" disabled selected>Order By</option>
+                        <option value="desc" class="x">desc</option>
+                        <option value="asc" class="x">asc</option>
+                    </select>
+                    <label class="input-group__label" for="order">order</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="min" type="date" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="min">Min</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="max" type="date" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="max">Max</label>
+                </div>
+                <div class="input-group">
+                    <select class="input-group__input" id="sort" style="padding-top: 15px;padding-bottom: 7px;">
+                        <option value="" disabled selected>Select sort Category</option>
+                        <option value="activity">Activity</option>
+                        <option value="votes">Votes</option>
+                        <option value="creation">Creation</option>
+                        <option value="relevance">Relevance</option>
+                    </select>
+                    <label class="input-group__label" for="sort">Sort</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="q" type="text" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="q">q</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="answer" type="number" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="answer">Answer</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="body" type="text" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="body">Body</label>
+                </div>
+                <div class="input-group">
+                    <select class="input-group__input" id="accepted" style="padding-top: 15px;padding-bottom: 7px;">
+                        <option value="" disabled selected>Select option</option>
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                    <label class="input-group__label" for="accepted">accepted</label>
+                </div>
+                <div class="input-group">
+                    <select class="input-group__input" id="closed" style="padding-top: 15px;padding-bottom: 7px;">
+                        <option value="" disabled selected>Select option</option>
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                    <label class="input-group__label" for="closed">Closed</label>
+                </div>
+                <div class="input-group">
+                    <select class="input-group__input" id="migrated" style="padding-top: 15px;padding-bottom: 7px;">
+                        <option value="" disabled selected>Select option</option>
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                    <label class="input-group__label" for="migrated">Migrated</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="title" type="text" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="title">Title</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="tagged" type="text" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="tagged">Tagged</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="nottagged" type="text" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="nottagged">Not Tagged</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="url" type="text" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="url">url</label>
+                </div>
+                <div class="input-group">
+                    <input class="input-group__input" id="views" type="number" placeholder=" " autocomplete="off">
+                    <label class="input-group__label" for="views">Views</label>
+                </div>
+                <div class="input-group">
+                    <select class="input-group__input" id="wiki" style="padding-top: 15px;padding-bottom: 7px;">
+                        <option value="" disabled selected>Select option</option>
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                    <label class="input-group__label" for="wiki">Wiki</label>
+                </div>
+                <div class="input-group">
+                    <select class="input-group__input" id="notice" style="padding-top: 15px;padding-bottom: 7px;">
+                        <option value="" disabled selected>Select option</option>
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                    <label class="input-group__label" for="notice">Notice</label>
+                </div>
+                <div class="input-group">
+                    <select class="input-group__input" id="filter" style="padding-top: 15px;padding-bottom: 7px;">
+                        <option value="" disabled selected>Select option</option>
+                        <option value="default">default</option>
+                        <option value="withbody">withbody</option>
+                        <option value="none">none</option>
+                        <option value="total">total</option>
+                    </select>
+                    <label class="input-group__label" for="filter">Filter</label>
+                </div>
+                <button id="btn">Submit</button>
+            </form>
+        </div>
+        <div class="mainloading" id="mainloading">
+            <img src="./img/loading.svg" alt="image">
+        </div>
+        <div class="main2block" id="main_2">
+            <div class="icon_back">
+                <img src="https://img.icons8.com/nolan/96/circled-left-2.png"/>
+            </div>
+            <div id="questions"></div>
+            <div class="pagination" id="pagination">
+            </div>
+        </div>
+        <div class="ssemi">
+            <img src="./img/smallsemi.png" alt="small semi">
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <!-- could have used ajax here but dont like ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js"
+        integrity="sha256-E1M+0f/hvoNVoV8K5RSn1gwe4EFwlvORnOrFzghX0wM=" crossorigin="anonymous" type="module"></script>
+</body>
+
+</html>
